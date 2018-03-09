@@ -9,6 +9,9 @@ by adding new mower moves possibilities and so we can do with the infrastructure
 
 Here's a Domain Driven design used to implement the sorting solution,
 
+![mower](https://user-images.githubusercontent.com/1450211/37204167-40ced410-2390-11e8-9034-42c45afeaea0.jpg)
+
+
 ## How to install the application
 
 The application needs [composer to be installed globally](https://getcomposer.org/doc/00-intro.md#globally). Then you've to run the following command,
