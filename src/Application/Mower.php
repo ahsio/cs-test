@@ -2,12 +2,12 @@
 
 namespace CS\Application;
 
-use CS\Application\Exception\UnknownInstructionException;
+use CS\Domain\Model\PositionInterface;
 use CS\Domain\Model\Position;
 
 class Mower implements MowerInterface
 {
-    /** @var Position */
+    /** @var PositionInterface */
     private $actualMowerPosition;
 
     /**

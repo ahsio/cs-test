@@ -4,14 +4,14 @@ namespace CS\Domain\Model;
 
 class Lawn
 {
-    /** @var Position */
+    /** @var PositionInterface */
     private $limit;
 
     /**
-     * @param Position $limit
+     * @param PositionInterface $limit
 
      */
-    public function __construct(Position $limit)
+    public function __construct(PositionInterface $limit)
     {
         $this->limit = $limit;
 
