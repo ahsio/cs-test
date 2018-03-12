@@ -1,6 +1,6 @@
 ## The solution design:
 
-The application Domain Drive structure separates well the Domain layer (the Model), the application layer (Mower moves) and the
+The application Domain Driven structure separates well the Domain layer (the Model), the application layer (Mower moves) and the
 infrastructure layer (the CLI command).
 
 This separation allows to extends the Domain, the Application and the infrastructure independently from one another. The Domain
